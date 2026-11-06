@@ -1,0 +1,50 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker/
+docker-compose.yml
+
+# Railway
+railway.toml
+
+# Local development
+data/*.sqlite
+data/*.sqlite3
+data/*.key
+data/*.hash
+data/*.log
+data/rates.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Documentation
+README*.md
+*.md
+!README-DEPLOY.md
+
+# Tests
+*_test.php
+tests/
+
+# Local config
+app/config.local.php
